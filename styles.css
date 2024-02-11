@@ -1,25 +1,61 @@
 body {
-    background: url(./img/background.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url(./img/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
   }
-/*.window{
-  display: block;
-  }*/
+
+
+
+.window {
+  
+  display: flex;
+  position: sticky;
+  width: 80%;
+  max-width: 600px;
+  height: 30%;
+  margin: 0  auto;
+  background-color:#feac32;
+  
+
+
+    
+   
+    align-items: center;
+ 
+    justify-content: center;
+    overflow: auto;
+  
+  
+  
+  }
+
+  .window__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+    padding:0;
+    
+  }
 
   #text {
-    background-color: #0a0a23;
-    color: #ffffff;
+    
     padding: 10px;
     
   }
   
   #game {
+    color: #ffffff;
+    width: 100%;
+    height: auto;
+    position: relative;
     max-width: 500px;
     max-height: 400px;
-    background-color: rgba(255,255,255,1);
+    
     color: #ffffff;
     margin: 30px auto 0px;
     padding: 10px;
