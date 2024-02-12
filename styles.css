@@ -23,7 +23,8 @@ body {
   max-width: 600px;
   height: 400px;
   margin: 0  auto;
-  background-color:#feac32;
+  top: 0px;
+  
   
 
 
@@ -51,17 +52,17 @@ body {
   #text {
     
     padding: 10px;
-    
+    color: rgb(128,0,0);
   }
   
   #game {
-    color: #ffffff;
+    color: black;
     width: 70%;
     height: auto;
     position: absolute;
     max-width: 500px;
     max-height: 400px;
-    
+    overflow: scroll;
     top: 150px;
     
     
